@@ -1,0 +1,5 @@
+.DS_Store
+.env
+model.pth
+.ipynb_checkpoints
+__pycache__
