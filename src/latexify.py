@@ -19,7 +19,7 @@ def savefig(fig, filepath, **kwargs):
     filepath = os.path.join('figs', filepath)
     dir_name = os.path.dirname(filepath)
     pathlib.Path(dir_name).mkdir(parents=True, exist_ok=True) 
-    fig.savefig(filepath, transparent=False, **kwargs)
+    fig.savefig(filepath, **kwargs)
 
 
 def latexify(fig_width=None, fig_height=None, columns=3):
